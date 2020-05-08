@@ -1,0 +1,17 @@
+<div class="sidebar">
+    <div class="sidebar-about">
+      <h1>
+        <a href="{{ site.baseurl }}">
+          {{ site.title }}
+        </a>
+      </h1>
+    </div>
+
+    <nav class="sidebar-nav">
+      {% assign sorted = (site.places | sort: 'name') %}	
+      {% for place in sorted %}
+		<a class="sidebar-nav-item{% if page.url == place.url %} active{% endif %}" href="{{ place.url }}">{{ place.name }}</a>
+      {% endfor %}
+
+    </nav>
+</div>

@@ -1,0 +1,29 @@
+markdown:         kramdown
+
+permalink:        pretty
+
+title:            Travel On The Map
+tagline:          'All of the main tourist attractions, for your next travel destination, on one interactive map!'
+description:      'Find the main tourist attractions for each country in the world, laid out on an interactive map.'
+url:              https://travelonthemapmap.github.io/
+baseurl:          /
+
+author:
+  name:           'Ina Gusenberg'
+
+email: travelonthemapmaps@gmail.com
+
+collections:
+  places:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "places"
+    values:
+      layout: "place"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
