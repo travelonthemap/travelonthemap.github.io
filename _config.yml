@@ -6,7 +6,7 @@ title:            Travel On The Map
 tagline:          'All of the main tourist attractions, for your next travel destination, on one interactive map!'
 description:      'Find the main tourist attractions for each country in the world, laid out on an interactive map.'
 url:              https://travelonthemapmap.github.io/
-baseurl:          /
+baseurl:          '/'
 
 author:
   name:           'Ina Gusenberg'
